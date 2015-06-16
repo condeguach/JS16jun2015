@@ -23,7 +23,12 @@ public class JavaDiaDos {
       
       ClaseProfesor prof1= new ClaseProfesor("Ingenro",14,per1.getNombre(),per1.getEdad(),per1.getSexo());
         
-        
+      System.out.println("Persona "+per1);
+      System.out.println("Estudiante "+est1);
+      System.out.println("Profesor "+prof1);
+      
+      System.out.println("el nombre de la universidad es "+ClaseUniversidad.nombre);
+           
     }
     
 }
